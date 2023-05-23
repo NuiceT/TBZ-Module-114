@@ -77,6 +77,8 @@ Folgende Zahlen lassen sich daraus extrahieren:
 
 ## Reflexion
 
+### Tag 1 (16.05.2023)
+
 Heute haben wir uns intensiv mit Zahlensystemen und numerischen Codes im Modul 114 beschäftigt. Wir haben gelernt, wie unterschiedliche Zahlensysteme funktionieren.
 
 Die letzte Aufgabe des Tages hat mir besonders gut gefallen und viel Spass gemacht. Es war eine anspruchsvolle Aufgabe, bei der ich meine Kenntnisse über Zahlensysteme und Codierung anwenden konnte. Es hat mich motiviert, meine Fähigkeiten weiterzuentwickeln.
@@ -84,5 +86,3 @@ Die letzte Aufgabe des Tages hat mir besonders gut gefallen und viel Spass gemac
 Allerdings muss ich zugeben, dass es mir heute etwas schwergefallen ist, mich vollständig zu konzentrieren. Ich war heute ziemlich erschöpft und es war ein langer Tag. Trotzdem habe ich mein Bestes gegeben, um aktiv am Unterricht teilzunehmen und die Inhalte zu verstehen.
 
 Ich freue mich aber schon auf das nächste Mal.
-
-### Tag 1 (16.05.2023)
