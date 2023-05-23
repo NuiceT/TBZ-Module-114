@@ -11,6 +11,18 @@
     - [A.2 Alphanumerische Codes ASCII und Unicode](#a2-alphanumerische-codes-ascii-und-unicode)
     - [A.3 Zusammengesetzte Codierung, Barcodes](#a3-zusammengesetzte-codierung-barcodes)
     - [A.4 Bildcodierung](#a4-bildcodierung)
+  - [Daten komprimieren](#daten-komprimieren)
+    - [B.1 Verlustlose Komprimierung](#b1-verlustlose-komprimierung)
+    - [B.2 Verlustbehaftete Komprimierung](#b2-verlustbehaftete-komprimierung)
+  - [Grundlagen Kryptografie](#grundlagen-kryptografie)
+    - [C.1 Symmetrische Verschlüsselung](#c1-symmetrische-verschlüsselung)
+    - [C.2 Asymmetrische Verschlüsselung](#c2-asymmetrische-verschlüsselung)
+    - [C.3 Digital signieren](#c3-digital-signieren)
+  - [Gesicherte Datenübertragung](#gesicherte-datenübertragung)
+    - [D.1 Public Key Infrastruktur](#d1-public-key-infrastruktur)
+    - [D.2 Internet und Zertifikate](#d2-internet-und-zertifikate)
+    - [D.3 PGP und OpenPGP](#d3-pgp-und-openpgp)
+    - [D.4 Sichere E-Mails](#d4-sichere-e-mails)
 - [Reflexion](#reflexion)
   - [Tag 1 (16.05.2023)](#tag-1-16052023)
 
@@ -74,6 +86,30 @@ Folgende Zahlen lassen sich daraus extrahieren:
 #### A.3 Zusammengesetzte Codierung, Barcodes
 
 #### A.4 Bildcodierung
+
+### Daten komprimieren
+
+#### B.1 Verlustlose Komprimierung
+
+#### B.2 Verlustbehaftete Komprimierung
+
+### Grundlagen Kryptografie
+
+#### C.1 Symmetrische Verschlüsselung
+
+#### C.2 Asymmetrische Verschlüsselung
+
+#### C.3 Digital signieren
+
+### Gesicherte Datenübertragung
+
+#### D.1 Public Key Infrastruktur
+
+#### D.2 Internet und Zertifikate
+
+#### D.3 PGP und OpenPGP
+
+#### D.4 Sichere E-Mails
 
 ## Reflexion
 
