@@ -25,6 +25,7 @@
     - [D.4 Sichere E-Mails](#d4-sichere-e-mails)
 - [Reflexion](#reflexion)
   - [Tag 1 (16.05.2023)](#tag-1-16052023)
+  - [Tag 2 (23.05.2023)](#tag-2-23052023)
 
 ## Themenbereiche
 
@@ -83,6 +84,35 @@ Folgende Zahlen lassen sich daraus extrahieren:
 
 #### A.2 Alphanumerische Codes ASCII und Unicode
 
+- Welche der Dateien ist nun ASCII-codiert, welche UTF-8 und welche UTF-16 BE-BOM?
+
+  - `Textsample1`: `ASCII`
+  - `Textsample2`: `UTF-8`
+  - `Textsample3`: `UTF-16 BE`
+
+- Alle drei Dateien enthalten denselben Text. Aus wie vielen Zeichen besteht dieser?
+
+  - 68
+
+- Was sind die jeweiligen Dateigrössen? (Beachten sie, dass unter Grösse auf Datenträger jeweils 0 Bytes angegeben wird. Dies darum, weil beim Windows-Dateisystem NTFS kleine Dateien direkt in die MFT (Master File Table) geschrieben werden.) Wie erklären sie sich die Unterschiede?
+
+  - Da ich ein UNIX-Basiertes Betriebssystem habe (MacOS), kann ich dies nicht beurteilen.
+
+- Bei den weiteren Fragen interessieren uns nur noch die ASCII- und die UTF-8-Datei: Bekanntlich ist UTF-8 in den ersten 128 Zeichen deckungsgleich mit ASCII. Untersuchen sie nun die beiden HEX-Dumps und geben sie an, welche Zeichen unterschiedlich codiert sind. Ein kleiner Tipp: Es sind deren zwei.
+
+  - `€` und `ä`
+
+- Was bedeuten die beiden Ausdrücke, denen wir z.B. bei UTF-16 begegnen: Big-Endian (BE), Little-Endian (LE)?
+
+  - Big-Endian (BE): Das höchstwertige Byte wird zuerst geschrieben.
+  - Little-Endian (LE): Das niederstwertige Byte wird zuerst geschrieben.
+
+- Im Notepad++ kann man unter dem Menüpunkt Codierung von ASCII zu UTF umschalten. Spielen sie damit etwas herum und notieren sie sich, was in der Darstellung jeweils ändert.
+
+  - Je nach Kodierung ändern sich die Sonderzeichen, weil die Zeichentabellen anders interpretiert werden.
+
+- Für Anspruchsvolle: Der UTF-8-Code kann je nach Zeichen ein, zwei, drei oder vier Byte lang sein. Wie kann der Textreader erkennen, wann ein UTF-8 Zeichencode beginnt und wann er endet? Untersuchen sie dies anhand der beiden Textsamples und lesen sie in z.B. Wikipedia die entsprechende Theorie zu UTF-8 durch. Tipp: Startbyte und Folgebyte.
+
 #### A.3 Zusammengesetzte Codierung, Barcodes
 
 #### A.4 Bildcodierung
@@ -122,3 +152,7 @@ Die letzte Aufgabe des Tages hat mir besonders gut gefallen und viel Spass gemac
 Allerdings muss ich zugeben, dass es mir heute etwas schwergefallen ist, mich vollständig zu konzentrieren. Ich war heute ziemlich erschöpft und es war ein langer Tag. Trotzdem habe ich mein Bestes gegeben, um aktiv am Unterricht teilzunehmen und die Inhalte zu verstehen.
 
 Ich freue mich aber schon auf das nächste Mal.
+
+### Tag 2 (23.05.2023)
+
+Der heutige Schultag zum Thema alphanumerische Codes ASCII und Unicode war lehrreich. Wir haben den ASCII-Code und seine Erweiterung gemäss ISO 8859 kennengelernt. Zudem haben wir die Notwendigkeit des Unicode zur Darstellung umfangreicherer Zeichensätze besprochen. Durch praktische Aufgaben haben wir die Unterschiede zwischen ASCII und UTF-8 erkundet und die Bedeutung von Big-Endian und Little-Endian erfahren. Insgesamt war der Schultag informativ und hat mein Verständnis für diese Codes erweitert.
