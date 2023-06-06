@@ -26,6 +26,7 @@
 - [Reflexion](#reflexion)
   - [Tag 1 (16.05.2023)](#tag-1-16052023)
   - [Tag 2 (23.05.2023)](#tag-2-23052023)
+  - [Tag 3 (30.05.2023)](#tag-3-30052023)
 
 ## Themenbereiche
 
@@ -156,3 +157,7 @@ Ich freue mich aber schon auf das nächste Mal.
 ### Tag 2 (23.05.2023)
 
 Der heutige Schultag zum Thema alphanumerische Codes ASCII und Unicode war lehrreich. Wir haben den ASCII-Code und seine Erweiterung gemäss ISO 8859 kennengelernt. Zudem haben wir die Notwendigkeit des Unicode zur Darstellung umfangreicherer Zeichensätze besprochen. Durch praktische Aufgaben haben wir die Unterschiede zwischen ASCII und UTF-8 erkundet und die Bedeutung von Big-Endian und Little-Endian erfahren. Insgesamt war der Schultag informativ und hat mein Verständnis für diese Codes erweitert.
+
+### Tag 3 (30.05.2023)
+
+> Krank
