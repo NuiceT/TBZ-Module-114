@@ -11,6 +11,9 @@
     - [A.2 Alphanumerische Codes ASCII und Unicode](#a2-alphanumerische-codes-ascii-und-unicode)
     - [A.3 Zusammengesetzte Codierung, Barcodes](#a3-zusammengesetzte-codierung-barcodes)
     - [A.4 Bildcodierung](#a4-bildcodierung)
+      - [RGB](#rgb)
+      - [CMYK](#cmyk)
+      - [YbcCr](#ybccr)
   - [Daten komprimieren](#daten-komprimieren)
     - [B.1 Verlustlose Komprimierung](#b1-verlustlose-komprimierung)
     - [B.2 Verlustbehaftete Komprimierung](#b2-verlustbehaftete-komprimierung)
@@ -27,6 +30,8 @@
   - [Tag 1 (16.05.2023)](#tag-1-16052023)
   - [Tag 2 (23.05.2023)](#tag-2-23052023)
   - [Tag 3 (30.05.2023)](#tag-3-30052023)
+  - [Tag 4 (06.06.2023)](#tag-4-06062023)
+  - [Tag 5 (13.06.2023)](#tag-5-13062023)
 
 ## Themenbereiche
 
@@ -116,7 +121,46 @@ Folgende Zahlen lassen sich daraus extrahieren:
 
 #### A.3 Zusammengesetzte Codierung, Barcodes
 
+> Keine Aufgaben thematisiert.
+
 #### A.4 Bildcodierung
+
+##### RGB
+
+- `#FF0000` entspricht der Farbe -> rot
+- `#00FF00` entspricht der Farbe -> grün
+- `#0000FF` entspricht der Farbe -> blau
+- `#FFFF00` entspricht der Farbe -> gelb
+- `#00FFFF` entspricht der Farbe -> cyan
+- `#FF00FF` entspricht der Farbe -> magenta
+- `#000000` entspricht der Farbe -> schwarz
+- `#FFFFFF` entspricht der Farbe -> weiss
+- `#00BC00` entspricht der Farbe -> dunkel-grün
+
+##### CMYK
+
+- C:0%, M:100%, Y:100%, K:0%    entspricht der Farbe -> rot
+- C:100%, M:0%, Y:100%, K:0%    entspricht der Farbe -> grün
+- C:100%, M:100%, Y:0%, K:0%    entspricht der Farbe -> blau
+- C:0%, M:0%, Y:100%, K:0%      entspricht der Farbe -> gelb
+- C:100%, M:0%, Y:0%, K:0%      entspricht der Farbe -> cyan
+- C:0%, M:100%, Y:0%, K:0%      entspricht der Farbe -> magenta
+- C:100%, M:100%, Y:100%, K:0%  entspricht der Farbe -> schwarz (in theorie)
+- C:0%, M:0%, Y:0%, K:100%      entspricht der Farbe -> schwarz
+- C:0%, M:0%, Y:0%, K:0%        entspricht der Farbe -> weiss
+- C:0%, M:46%, Y:38%, K:22%     entspricht der Farbe -> dunkeleres rot
+
+##### YbcCr
+
+- RGB 255/255/255           ergibt in YCbCr      -> 1, 0, 0
+- RGB 0/0/0                 ergibt in YCbCr      -> 0, 0, 0
+- Y:1, Cb:0, Cr:0           entspricht der Farbe -> weiss
+- Y:0, Cb:0, Cr:0           entspricht der Farbe -> schwarz
+- Y:0, Cb:1, Cr:0           entspricht der Farbe -> rot
+- Y:0, Cb:-1, Cr:0          entspricht der Farbe -> grün
+- Y:0, Cb:0, Cr:1           entspricht der Farbe -> blau
+- Y:0, Cb:0, Cr:-1          entspricht der Farbe -> dunkel grün
+- Y:0.3, Cb:0.5, Cr:-0.17   entspricht der Farbe -> rot(/braun, bäsch?)
 
 ### Daten komprimieren
 
@@ -161,3 +205,8 @@ Der heutige Schultag zum Thema alphanumerische Codes ASCII und Unicode war lehrr
 ### Tag 3 (30.05.2023)
 
 > Krank
+
+### Tag 4 (06.06.2023)
+
+Heute hatten wir eine Prüfung über die bisherigen Themen. Die Fragen umfassten Zahlensysteme, Codes, Multimedia-Konzepte und Komprimierung. Die Prüfung hat mir geholfen, mein Verständnis zu überprüfen. Wir haben auch weitere interessante Themen behandelt, wie die Berechnung einer Videosequenz und den Huffman-Algorithmus. Insgesamt war der Tag lehrreich, und ich freue mich darauf, das Gelernte weiter anzuwenden.
+
