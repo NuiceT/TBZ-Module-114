@@ -17,7 +17,7 @@
   - [Daten komprimieren](#daten-komprimieren)
     - [B.1 Verlustlose Komprimierung](#b1-verlustlose-komprimierung)
     - [B.2 Verlustbehaftete Komprimierung](#b2-verlustbehaftete-komprimierung)
-  - [Grundlagen Kryptografie](#grundlagen-kryptografie)
+  - [Grundlagen Kryptografien](#grundlagen-kryptografien)
     - [C.1 Symmetrische Verschlüsselung](#c1-symmetrische-verschlüsselung)
     - [C.2 Asymmetrische Verschlüsselung](#c2-asymmetrische-verschlüsselung)
     - [C.3 Digital signieren](#c3-digital-signieren)
@@ -32,6 +32,7 @@
   - [Tag 3 (30.05.2023)](#tag-3-30052023)
   - [Tag 4 (06.06.2023)](#tag-4-06062023)
   - [Tag 5 (13.06.2023)](#tag-5-13062023)
+  - [Tag 6 (20.06.2023)](#tag-6-20062023)
 
 ## Themenbereiche
 
@@ -227,9 +228,27 @@ Folgende Zahlen lassen sich daraus extrahieren:
 
 #### B.2 Verlustbehaftete Komprimierung
 
-### Grundlagen Kryptografie
+### Grundlagen Kryptografien
 
 #### C.1 Symmetrische Verschlüsselung
+
+1. **Die Rotationsschiffre**
+   - DER ANGRIFF ERFOLGT ZUR TEEZEIT DIE WUERFEL SIND GEFALLEN ICH KAM SAH UND SIEGTE TEILE UND HERRSCHE
+
+2. **Vigenèreverschlüsselung**
+
+  `BEEF` mit Schlüsselwort `AFFE` = `BJJJ`
+  `WRKXQT` mit Schlüsselwort `SECRET` = `ENIGMA`
+  Hinter dem verschlüsselten Text `USP JHYRH ZZB GTV CJ WQK OCLGQVFQK GAYKGVFGX NS ISBVB MYBC MWCC NS JOEVB GTV KRQFV AGK XCUSP VFLVBLLBE ESSEILUBCLBXZU SENSWFGVRCES SER CZBCE ILUOLBPYISL CCSZG VZJ` verbirgt sich folgender Text: `DER STAAT BIN ICH ES IST AEUSSERST SCHWIERIG ZU REDEN OHNE VIEL ZU SAGEN ICH MACHE MIT JEDER ERNENNUNG NEUNUNDNEUNZIG UNZUFRIEDENE UND EINEN UNDANKBAREN LOUIS XIV` Der Schlüssel ist `ROY`.
+  Wenn man den Text mit folgendem Schlüssel verschlüsselt: `LoremipsumdolorsitametconsectetueradipiscingelitAeneancommodoligulaegetdolorAeneanmassaCumsociisnatoquepenatibusetmagnisdisparturientmontesnasceturridiculusmusDonecquamfelisultriciesnecpellentesqueeupretiumquissemNullaconsequatmassaquisenimDonecpedejustofringillavelaliquetnecvulputateegetarcuInenimjustorhoncusutimperdietavenenatisvitaejustoNullamdictumfeliseupedemollispretiumIntegertinciduntCrasdapibusVivamuselementumsempernisiAeneanvulputateeleifendtellusAeneanleoligulaporttitoreuconsequatvitaeeleifendacenimAliquamloremantedapibusinviverraquisfeugiatatellusPhasellusviverranullautmetusvariuslaoreetQuisquerutrumAeneanimperdietEtiamultriciesnisivelaugueCurabiturullamcorperultriciesnisiNamegetduiEtiamrhoncusMaecenastempustellusegetcondimentumrhoncussemquamsemperliberositametadipiscingsemnequesedipsumNamquamnuncblanditvelluctuspulvinarhendreritidloremMaecenasnecodioetantetincidunttempusDonecvitaesapienutliberovenenatisfaucibusNullamquisanteEtiamsitametorciegeterosfaucibustinciduntDuisleoSedfringillamaurissitametnibhDonecsodalessagittismagnaSedconsequatleoegetbibendumsodalesauguevelitcursusnunc`
+  Hat man mit wenig Rechenleistung und keinem korrekten Algorithmus keine Chance den Schlüssel bzw. den Originaltext herauszufinden.
+
+3. **XOR-Stromchiffre**
+  `4711` ist als Binärzahl `1001001100111`. Wenn man mit dem Schlüssel `10001101` das XOR anwendet bekommt man `1001011101010`. Diese Binärzahl ist in Dezimal `4842`.
+
+4. **Sicheres Passwort**
+
+  Das Passwort `Passwort123Sicher` bräuchte 4 Jahre zu knacken. Das Passwort `JF2tpKsAa5iyJeJo` bräuchte ganze Jahrzente um geknackt zu werden. Dies trifft jedoch nur auf das Bruteforcing zu. Würde man eine Wörterbuch-Attacke verwenden, würde das erste unsichere Passwort innert Sekunden geknackt werden.
 
 #### C.2 Asymmetrische Verschlüsselung
 
@@ -240,6 +259,8 @@ Folgende Zahlen lassen sich daraus extrahieren:
 #### D.1 Public Key Infrastruktur
 
 #### D.2 Internet und Zertifikate
+
+Ò
 
 #### D.3 PGP und OpenPGP
 
@@ -272,3 +293,11 @@ Heute hatten wir eine Prüfung über die bisherigen Themen. Die Fragen umfassten
 ### Tag 5 (13.06.2023)
 
 Heute haben wir uns mit verschiedenen Datenkomprimierungsmethoden beschäftigt, wie dem Huffman-Algorithmus, RLC/E-Verfahren, LZW-Verfahren, ZIP-Komprimierung und der Burrows-Wheeler-Transformation. Wir haben praktische Übungen durchgeführt und die Anwendung dieser Verfahren kennengelernt. Es war interessant, die Effizienz der Komprimierung zu untersuchen.
+
+### Tag 6 (20.06.2023)
+
+Heute haben wir uns mit den Grundlagen der Kryptografie beschäftigt. Wir haben verschiedene symmetrische Verschlüsselungsmethoden kennengelernt, wie die Rotationsschiffre, Vigenère-Verschlüsselung und XOR-Stromchiffre. Wir haben praktische Beispiele durchgeführt und die Stärken und Schwächen dieser Verschlüsselungsverfahren diskutiert.
+
+Ausserdem haben wir gelernt, wie wichtig es ist, sichere Passwörter zu verwenden, um sich vor unbefugtem Zugriff zu schützen.
+
+Die Themen waren interessant und haben mein Verständnis für Kryptografie vertieft.
