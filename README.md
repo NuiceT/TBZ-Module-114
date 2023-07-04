@@ -33,6 +33,7 @@
   - [Tag 4 (06.06.2023)](#tag-4-06062023)
   - [Tag 5 (13.06.2023)](#tag-5-13062023)
   - [Tag 6 (20.06.2023)](#tag-6-20062023)
+  - [Tag 7 (27.06.2023)](#tag-7-27062023)
 
 ## Themenbereiche
 
@@ -252,6 +253,12 @@ Folgende Zahlen lassen sich daraus extrahieren:
 
 #### C.2 Asymmetrische Verschlüsselung
 
+1. ![](resources/2023-06-27-13-42-04.png)
+2. Der Text wird anders verschlüsselt. Der eine Text sieht anders aus als der andere.
+3. -
+4. -
+5.
+
 #### C.3 Digital signieren
 
 ### Gesicherte Datenübertragung
@@ -259,8 +266,6 @@ Folgende Zahlen lassen sich daraus extrahieren:
 #### D.1 Public Key Infrastruktur
 
 #### D.2 Internet und Zertifikate
-
-Ò
 
 #### D.3 PGP und OpenPGP
 
@@ -301,3 +306,13 @@ Heute haben wir uns mit den Grundlagen der Kryptografie beschäftigt. Wir haben 
 Ausserdem haben wir gelernt, wie wichtig es ist, sichere Passwörter zu verwenden, um sich vor unbefugtem Zugriff zu schützen.
 
 Die Themen waren interessant und haben mein Verständnis für Kryptografie vertieft.
+
+### Tag 7 (27.06.2023)
+
+Heute fand der Unterricht statt, bei dem wir uns mit verschiedenen Themen beschäftigt haben. Es wurden Aspekte der asymmetrischen Verschlüsselung behandelt, wie beispielsweise der Diffie-Hellman-Schlüsseltausch und RSA. Wir haben auch hybride Verfahren diskutiert, bei denen sowohl asymmetrische als auch symmetrische Verschlüsselungstechniken zum Einsatz kommen, um die Vorteile beider Ansätze zu nutzen.
+
+Ein weiterer wichtiger Aspekt war die Bildung von Hash-Werten und die Verwendung aktueller Hash-Algorithmen. Wir haben gelernt, wie man Hash-Werte bildet und sie für die Gewährleistung der Integrität von Daten verwendet.
+
+Ausserdem haben wir uns mit dem digitalen Signieren von Dokumenten beschäftigt, um deren Authentizität zu gewährleisten. Dies ermöglicht es, die Identität des Absenders zu überprüfen und sicherzustellen, dass die Inhalte des Dokuments unverändert sind.
+
+Insgesamt hatte ich ein gutes Gefühl während des Unterrichts und fühle mich gut vorbereitet auf die behandelten Themen.
